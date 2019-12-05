@@ -13,8 +13,15 @@
     <!-- First, create a form tag where our inputs will be nested -->
     <form action="" method="get">
       <label for="fullname">Full Name</label>
-      <input type="text" name="fullname" placeholder="Enter Name" required>
-
+      <input id="fullname" type="text" name="fullname" placeholder="Enter Name" required>
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" placeholder="Enter Email" required>
+      <label for="phone">Phone Number</label>
+      <input id="phone" type="tel" name="phone" placeholder="Enter Telephone (optional)">
+      <label for="message">Message</label>
+      <input id="message" type="textarea" name="message" placeholder="Enter Message">
+      <input id="checkbox" type="checkbox">
+      <input id="submit" type="submit" name="submit">
     </form>
 
       <!-- Add a label for 'fullname'-->
